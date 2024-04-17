@@ -724,6 +724,16 @@ video {
   margin-right: 0.5rem;
 }
 
+.my-\[72px\] {
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.my-\[32px\] {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -910,6 +920,10 @@ video {
 
 .ml-4 {
   margin-left: 1rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .block {
@@ -1397,8 +1411,16 @@ video {
   gap: 95px;
 }
 
+.overflow-auto {
+  overflow: auto;
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
 }
 
 .overflow-x-auto {
@@ -1407,6 +1429,14 @@ video {
 
 .overflow-y-auto {
   overflow-y: auto;
+}
+
+.overflow-y-clip {
+  overflow-y: clip;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .scroll-smooth {
@@ -1790,6 +1820,10 @@ video {
   text-align: right;
 }
 
+.text-end {
+  text-align: end;
+}
+
 .align-middle {
   vertical-align: middle;
 }
@@ -1846,6 +1880,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -2129,6 +2168,10 @@ video {
     right: -275px;
   }
 
+  .lg\:right-\[-310px\] {
+    right: -310px;
+  }
+
   .lg\:order-2 {
     order: 2;
   }
@@ -2385,6 +2428,10 @@ video {
 
   .lg\:gap-36 {
     gap: 9rem;
+  }
+
+  .lg\:overflow-hidden {
+    overflow: hidden;
   }
 
   .lg\:px-0 {
