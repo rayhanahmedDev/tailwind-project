@@ -2172,6 +2172,14 @@ video {
     right: -310px;
   }
 
+  .lg\:right-\[0px\] {
+    right: 0px;
+  }
+
+  .lg\:right-\[-323px\] {
+    right: -323px;
+  }
+
   .lg\:order-2 {
     order: 2;
   }
