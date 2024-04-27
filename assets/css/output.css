@@ -1579,6 +1579,10 @@ video {
   gap: 30px;
 }
 
+.gap-\[32px\] {
+  gap: 32px;
+}
+
 .gap-\[44px\] {
   gap: 44px;
 }
@@ -1593,10 +1597,6 @@ video {
 
 .gap-\[95px\] {
   gap: 95px;
-}
-
-.gap-\[32px\] {
-  gap: 32px;
 }
 
 .overflow-hidden {
@@ -2359,6 +2359,14 @@ video {
     margin-top: 20px;
   }
 
+  .md\:ml-\[136px\] {
+    margin-left: 136px;
+  }
+
+  .md\:ml-0 {
+    margin-left: 0px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -2515,16 +2523,48 @@ video {
     gap: 16px;
   }
 
-  .md\:gap-\[20px\] {
-    gap: 20px;
-  }
-
   .md\:gap-\[35\.5px\] {
     gap: 35.5px;
   }
 
   .md\:gap-\[83px\] {
     gap: 83px;
+  }
+
+  .md\:gap-\[60px\] {
+    gap: 60px;
+  }
+
+  .md\:gap-\[92px\] {
+    gap: 92px;
+  }
+
+  .md\:gap-\[228px\] {
+    gap: 228px;
+  }
+
+  .md\:gap-\[236px\] {
+    gap: 236px;
+  }
+
+  .md\:gap-\[227px\] {
+    gap: 227px;
+  }
+
+  .md\:gap-\[237px\] {
+    gap: 237px;
+  }
+
+  .md\:gap-\[62px\] {
+    gap: 62px;
+  }
+
+  .md\:gap-\[226px\] {
+    gap: 226px;
+  }
+
+  .md\:gap-\[235px\] {
+    gap: 235px;
   }
 
   .md\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2770,6 +2810,10 @@ video {
 
   .lg\:mt-\[210px\] {
     margin-top: 210px;
+  }
+
+  .lg\:ml-3 {
+    margin-left: 0.75rem;
   }
 
   .lg\:flex {
