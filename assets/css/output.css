@@ -1595,6 +1595,10 @@ video {
   gap: 95px;
 }
 
+.gap-\[32px\] {
+  gap: 32px;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -2423,6 +2427,10 @@ video {
     min-width: 280px;
   }
 
+  .md\:min-w-\[289px\] {
+    min-width: 289px;
+  }
+
   .md\:min-w-\[320px\] {
     min-width: 320px;
   }
@@ -2453,10 +2461,6 @@ video {
 
   .md\:min-w-\[590px\] {
     min-width: 590px;
-  }
-
-  .md\:min-w-\[289px\] {
-    min-width: 289px;
   }
 
   .md\:max-w-\[264px\] {
@@ -2870,10 +2874,6 @@ video {
 
   .lg\:min-w-\[270px\] {
     min-width: 270px;
-  }
-
-  .lg\:min-w-\[289px\] {
-    min-width: 289px;
   }
 
   .lg\:min-w-\[320px\] {
